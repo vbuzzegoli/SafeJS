@@ -1,0 +1,41 @@
+{
+  "name": "safejs-cli",
+  "version": "1.0.0",
+  "description": "A safe offensive javascript, finally!",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "safejs": "source ./src/cli/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbuzzegoli/SafeJS.git"
+  },
+  "keywords": [
+    "safe",
+    "js",
+    "javascript",
+    "safejs",
+    "safeJS",
+    "offensive",
+    "SafeJS"
+  ],
+  "author": "Victor Buzzegoli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbuzzegoli/SafeJS/issues"
+  },
+  "homepage": "https://github.com/vbuzzegoli/SafeJS#readme",
+  "devDependencies": {
+    "@sweet-js/core": "^3.0.13",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.4",
+    "path": "^0.12.7",
+    "semver": "^6.3.0"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  }
+}
