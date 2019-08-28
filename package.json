@@ -1,6 +1,6 @@
 {
   "name": "safejs-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A safe offensive javascript, finally!",
   "main": "./src/cli/index.js",
   "scripts": {
